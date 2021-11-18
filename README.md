@@ -37,7 +37,7 @@ Our proposed RGBT SOD dataset VT723 that contain common challenging scenes of re
 ```
 
  - If you just want to evaluate the performance of MCNet without training, please download the [pretrained model]() into `res` folder
- - Train the model and get the predicted saliency maps, which will be saved into `eval/maps` folder.
+ - Train the model and get the predicted saliency maps, which will be saved into `maps` folder.
  ```shell
     python3 test.py
 ```
