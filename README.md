@@ -11,33 +11,47 @@ MCNet: Mirror Complementary Network for RGB-thermal Salient Object Detection
 - [TensorboardX 2.1](https://github.com/lanpa/tensorboardX)
 
 
-## Download dataset
+## Benchmark Datasets
 Download the following datasets and unzip them into `data` folder
 
 - [VT5000](https://arxiv.org/pdf/2007.03262.pdf)
 - [VT1000](https://arxiv.org/pdf/1905.06741.pdf)
 - [VT821](https://link.springer.com/chapter/10.1007/978-981-13-1702-6_36)
-- [VT723]([Baidu: https://pan.baidu.com/s/1F171033a7JurP8ICq6Fv1w] [code: yuno])
 
 
-## Training & Testing
-
-- Train the MCNet:
-
-    `python train.py `
-
-- Test the MCNet:
-
-    `python test.py `
-    
-    The test maps will be saved to './maps/'.
-
-- Evaluate the result maps:
-
-	eval/main.m
+## The Proposed Dataset
+Our proposed RGBT SOD dataset VT723 that contain common challenging scenes of real world.
+- VT723 [Google]()|[Baidu code:yuno](https://pan.baidu.com/s/1F171033a7JurP8ICq6Fv1w)
 
 
-## Trained model
-- trained model: ([Baidu: https://pan.baidu.com/s/1510TnLFx0gRK6S1ppXXSXg] [code: p2t9])
+
+## Training & Testing & Evaluate
+- Split the ground truth into skeleton map and contour map, which will be saved into `data/VT5000/skeleton` and `data/VT5000/contour`.
+```shell
+    python3 utils.py
+```
+
+- Train the model and get the pretrained model, which will be saved into `res` folder.
+```shell
+    python3 train.py
+```
+
+ - If you just want to evaluate the performance of MCNet without training, please download the [pretrained model]() into `res` folder
+ - Train the model and get the predicted saliency maps, which will be saved into `eval/maps` folder.
+ ```shell
+    python3 test.py
+```
+
+- Evaluate the predicted results. 
+```shell
+    cd eval
+    matlab
+    main
+```
+
+
+## Saliency maps & Trained model
+- saliency maps: [Google]()|[Baidu code:p2t9](https://pan.baidu.com/s/1510TnLFx0gRK6S1ppXXSXg)
+- trained model: [Google]()|[Baidu code:p2t9](https://pan.baidu.com/s/1510TnLFx0gRK6S1ppXXSXg)
 
 
