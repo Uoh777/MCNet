@@ -14,9 +14,9 @@ MCNet: Mirror Complementary Network for RGB-thermal Salient Object Detection
 ## Benchmark Datasets
 Download the following datasets and unzip them into `data` folder
 
-- [VT5000](https://drive.google.com/file/d/1q3cgxs3_go4yO1iB2zLNEhZXdN60Mdap/view?usp=sharing)
-- [VT1000](https://drive.google.com/file/d/1I4GPXOl-xQPi7SSHx5NqgqFqtVm9XbHO/view?usp=sharing)
-- [VT821](https://drive.google.com/file/d/1hXJWFE2sSs0mIsm1ygMDoLpL3OJ8Eiz-/view?usp=sharing)
+- VT5000 [Google](https://drive.google.com/file/d/1q3cgxs3_go4yO1iB2zLNEhZXdN60Mdap/view?usp=sharing)|[Baidu code:bmh5](https://pan.baidu.com/s/1eaLP3e2xgHvLqhykEDdu3Q)
+- VT1000 [Google](https://drive.google.com/file/d/1I4GPXOl-xQPi7SSHx5NqgqFqtVm9XbHO/view?usp=sharing)|[Baidu code:t1lk](https://pan.baidu.com/s/1bClcng1pPbcmuuPSex-SXw)
+- VT821 [Google](https://drive.google.com/file/d/1hXJWFE2sSs0mIsm1ygMDoLpL3OJ8Eiz-/view?usp=sharing)|[Baidu code:lncn](https://pan.baidu.com/s/1iNZqb8nSxte_P0boi9gwAg)
 
 
 ## The Proposed Dataset
